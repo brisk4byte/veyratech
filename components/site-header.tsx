@@ -47,7 +47,7 @@ export function SiteHeader() {
               height={40}
               className="h-7 w-7 sm:h-8 sm:w-8 lg:h-10 lg:w-10"
             />
-            <span className="text-sm sm:text-base lg:text-lg font-semibold text-[#1F5D96]">VEYRA</span>
+            <span className="text-sm sm:text-base lg:text-lg font-semibold text-[#1F5D96]">VEYRA TECH</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -1,5 +1,5 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
@@ -7,9 +7,56 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "VEYRA",
-  description: "IT Recruitment Website",
-  generator: "VEYRA",
+  title: "VEYRA TECH - Comprehensive HR Solutions & Recruitment Services",
+  description: "VEYRA TECH provides comprehensive HR solutions including recruitment, staffing, payroll management, and HR consulting. Empowering organizations with skilled manpower and strategic workforce solutions.",
+  keywords: "HR solutions, recruitment, staffing, payroll management, HR consulting, workforce management, Veyra Tech",
+  generator: "VEYRA TECH",
+  authors: [{ name: "VEYRA TECH" }],
+  creator: "VEYRA TECH",
+  publisher: "VEYRA TECH",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  manifest: "/site.webmanifest",
+  openGraph: {
+    title: "VEYRA TECH - Comprehensive HR Solutions",
+    description: "Empowering organizations with skilled manpower, seamless HR operations, and strategic workforce management solutions.",
+    url: "https://veyratech.in",
+    siteName: "VEYRA TECH",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VEYRA TECH - Comprehensive HR Solutions",
+    description: "Empowering organizations with skilled manpower, seamless HR operations, and strategic workforce management solutions.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+}
+
+export const viewport: Viewport = {
+  themeColor: "#1F5D96",
 }
 
 export default function RootLayout({

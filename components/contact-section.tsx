@@ -31,7 +31,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Corporate Headquarters</h4>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground">
-                    B wing 601 Meghna Shivam, Sector- 4, Karanjada, 12, Dombala, Panvel, Navi Mumbai, Maharashtra 410206
+                    B wing 601 Meghna Shivam, Sector- 4, Karanjade, 12, Dombala, Panvel, Navi Mumbai, Maharashtra 410206
                   </p>
                 </div>
               </div>

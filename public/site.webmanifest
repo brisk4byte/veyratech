@@ -1,0 +1,21 @@
+{
+  "name": "VEYRA TECH",
+  "short_name": "VEYRA",
+  "description": "Comprehensive HR Solutions - Empowering organizations with skilled manpower, seamless HR operations, and strategic workforce management solutions",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1F5D96",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
