@@ -62,12 +62,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE",
-    other: {
-      "msvalidate.01": "YOUR_BING_VERIFICATION_CODE",
-    },
-  },
+  // verification: {
+  //   google: "YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE",
+  //   other: {
+  //     "msvalidate.01": "YOUR_BING_VERIFICATION_CODE",
+  //   },
+  // },
 }
 
 export const viewport: Viewport = {
