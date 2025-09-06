@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://veyratech.in/</loc>
-    <lastmod>2024-12-20</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://veyratech.in/logo/Logo.png</image:loc>
+      <image:title>VEYRA TECH - Professional HR Solutions Company</image:title>
+      <image:caption>VEYRA TECH Logo - HR Solutions & Recruitment Services</image:caption>
+    </image:image>
   </url>
 </urlset>
