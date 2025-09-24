@@ -7,6 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://veyratech.in"),
   title: "VEYRA TECH - Comprehensive HR Solutions & Recruitment Services",
   description: "VEYRA TECH - Professional HR Solutions Company. We provide recruitment, staffing, payroll management, and HR consulting services. Empowering organizations with skilled manpower and strategic workforce management solutions.",
   keywords: "HR solutions, recruitment, staffing, payroll management, HR consulting, workforce management, Veyra Tech",
@@ -29,6 +30,9 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "VEYRA TECH - Professional HR Solutions & Recruitment Services",
     description: "VEYRA TECH provides comprehensive HR solutions including recruitment, staffing, payroll management, and HR consulting. Empowering organizations with skilled manpower and strategic workforce management solutions.",
