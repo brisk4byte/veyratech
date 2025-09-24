@@ -88,9 +88,9 @@ export default function RootLayout({
       "url": "https://veyratech.in",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://veyratech.in/logo/Logo.png",
-        "width": 1200,
-        "height": 630
+        "url": "https://veyratech.in/android-chrome-512x512.png",
+        "width": 512,
+        "height": 512
       },
       "contactPoint": {
         "@type": "ContactPoint",
