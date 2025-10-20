@@ -34,6 +34,12 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon.ico",
   },
+  other: {
+    "msapplication-TileColor": "#1F5D96",
+    "msapplication-TileImage": "/android-chrome-192x192.png",
+    "theme-color": "#1F5D96",
+    "msapplication-config": "/browserconfig.xml",
+  },
   manifest: "/site.webmanifest",
   alternates: {
     canonical: "/",
@@ -175,20 +181,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="antialiased scroll-smooth">
       <head>
-        {/* Additional favicon links for better compatibility */}
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
-        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="msapplication-TileColor" content="#1F5D96" />
-        <meta name="msapplication-TileImage" content="/android-chrome-192x192.png" />
-        <meta name="theme-color" content="#1F5D96" />
-        <meta name="msapplication-config" content="/browserconfig.xml" />
         {jsonLd.map((item, index) => (
           <script
             key={index}
