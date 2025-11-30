@@ -29,9 +29,23 @@ export function ContactSection() {
                 </div>
                 
                 <div>
-                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Corporate Headquarters</h4>
+                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Home Branch</h4>
+                  <p className="text-xs sm:text-sm md:text-base text-muted-foreground">
+                    Unit No. 825, LODHA SIGNET 1, Premier Colony Kalyan, Mangaon, Ulhasnagar, Thane, Maharashtra - 421204
+                  </p>
+                </div>
+                
+                <div>
+                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Branch Office</h4>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground">
                     B wing 601 Meghna Shivam, Sector- 4, Karanjade, 12, Dombala, Panvel, Navi Mumbai, Maharashtra 410206
+                  </p>
+                </div>
+                
+                <div>
+                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">GSTIN</h4>
+                  <p className="text-xs sm:text-sm md:text-base text-muted-foreground">
+                    27AALCV3627J1ZW
                   </p>
                 </div>
               </div>

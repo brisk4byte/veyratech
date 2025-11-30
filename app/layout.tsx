@@ -119,8 +119,11 @@ export default function RootLayout({
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressCountry": "IN",
-        "addressRegion": "India"
+        "streetAddress": "Unit No. 825, LODHA SIGNET 1, Premier Colony Kalyan, Mangaon",
+        "addressLocality": "Ulhasnagar",
+        "addressRegion": "Maharashtra",
+        "postalCode": "421204",
+        "addressCountry": "IN"
       },
       "foundingDate": "2024",
       "industry": "Human Resources",

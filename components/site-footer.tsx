@@ -65,6 +65,9 @@ export function SiteFooter() {
         <p className="mt-3 sm:mt-4 text-center text-xs text-gray-600">
           © {new Date().getFullYear()} VEYRA. All rights reserved.
         </p>
+        <p className="mt-2 text-center text-xs text-gray-600">
+          GSTIN: 27AALCV3627J1ZW
+        </p>
       </div>
     </footer>
   )
