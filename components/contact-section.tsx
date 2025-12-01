@@ -29,16 +29,16 @@ export function ContactSection() {
                 </div>
                 
                 <div>
-                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Home Branch</h4>
+                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Head Office</h4>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground">
-                    Unit No. 825, LODHA SIGNET 1, Premier Colony Kalyan, Mangaon, Ulhasnagar, Thane, Maharashtra - 421204
+                    B wing 601 Meghna Shivam, Sector- 4, Karanjade, 12, Dombala, Panvel, Navi Mumbai, Maharashtra 410206
                   </p>
                 </div>
                 
                 <div>
-                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Branch Office</h4>
+                  <h4 className="font-medium text-foreground mb-2 sm:mb-3 text-sm sm:text-base md:text-lg">Registered Office</h4>
                   <p className="text-xs sm:text-sm md:text-base text-muted-foreground">
-                    B wing 601 Meghna Shivam, Sector- 4, Karanjade, 12, Dombala, Panvel, Navi Mumbai, Maharashtra 410206
+                    Unit No. 825, LODHA SIGNET 1, Premier Colony Kalyan, Mangaon, Ulhasnagar, Thane, Maharashtra - 421204
                   </p>
                 </div>
                 
